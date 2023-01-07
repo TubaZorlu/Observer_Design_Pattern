@@ -1,0 +1,26 @@
+﻿@model UPSchool_Observer_Design_Pattern.Models.UserVM
+@{
+    ViewData["Title"] = "Index";
+}
+<form method="post">
+    <br />
+    <div class="container">
+        <label>Adınız</label>
+        <input type="text" asp-for="Name" class="form-control" />
+        <br />
+         <label>SoyAdınız</label>
+        <input type="text" asp-for="Surname" class="form-control" />
+        <br />
+         <label>Kullanıcı Adı</label>
+        <input type="text" asp-for="Username" class="form-control" />
+        <br />
+        <label>Mailiniz</label>
+        <input type="text" asp-for="Mail" class="form-control" />
+        <br />
+        <label>Şifreniz</label>
+        <input type="text" asp-for="Password" class="form-control" />
+        <br />
+        <button class="btn btn-success">Kaydet</button>
+    </div>
+</form>
+
